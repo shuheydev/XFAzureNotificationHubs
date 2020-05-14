@@ -67,7 +67,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MyFirebaseMessagingService.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
