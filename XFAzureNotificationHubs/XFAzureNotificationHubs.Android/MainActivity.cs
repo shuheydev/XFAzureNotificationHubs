@@ -43,8 +43,10 @@ namespace XFAzureNotificationHubs.Droid
             }
             //ここまで
 
+            //ここから
             IsPlayServicesAvailable();
             CreateNotificationChannel();
+            //ここまで
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
