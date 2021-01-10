@@ -1,9 +1,10 @@
 ﻿namespace XFAzureNotificationHubs.Droid
 {
     //Azure Notification Hubを使うための情報はこれだけ.
+    //Azure Portalから取得すること.
     public static class Constants
     {
-        public const string ListenConnectionString = "Endpoint=sb://xfazurenotificationhubs.servicebus.windows.net/;SharedAccessKeyName=DefaultListenSharedAccessSignature;SharedAccessKey=uwG6hS/qcW60Y9HAdbjIVUV8eOll9hHOwmHuhiEHLOg=";
-        public const string NotificationHubName = "XFAzureNotificationHubs";
+        public const string ListenConnectionString = "";
+        public const string NotificationHubName = "";
     }
 }
